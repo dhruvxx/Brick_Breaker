@@ -1,7 +1,7 @@
 # BRICK_BREAKER
 
 This game is a termial-based replica of the game -  brickbreaker.  
-It involves using a ball to break to an arrangement of bricks with the use of a movable paddle to direct the ball and prevent it from falling off the screen.
+It involves using a ball to break an arrangement of bricks with the use of a movable paddle to direct the ball and prevent it from falling off the screen.
 
 ---
 
@@ -34,10 +34,10 @@ You lose if the ball touches the ground. It ends the game.
 ## Running the game:
 To run the game, run the following commands:
 
-pip3 install colorama
+`pip3 install colorama`
 
 
-python3 main.py
+`python3 main.py`
 
 ---
 
@@ -55,12 +55,16 @@ Ball reflects when it hits the wall and makes a sound.
 
 ## OOPS Concepts:
 When making this game, the following OOPS concepts were applied:
+
 - *Abstraction*:  
 All the functionality in main.py is implemented via intuitive commands like ball.move() and board.render().
+
 - *Encapsulation*:  
 Each game element has it's own class and methods to make the operation and functioning of those game elements simpler.
+
 - *Inheritance*:  
 Defines a class that inherits all the methods and properties from another class. 
+
 - *Polymorphism*:  
 Different classes have methods with the same name.
 
